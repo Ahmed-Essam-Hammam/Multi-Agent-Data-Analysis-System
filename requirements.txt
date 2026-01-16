@@ -1,0 +1,17 @@
+langchain
+langgraph
+langchain-core
+langchain-community
+langchain-google-genai
+fastapi[standard]
+uvicorn
+python-multipart
+pandas
+matplotlib
+sqlalchemy
+langchain-experimental
+python-dotenv
+pydantic
+langchain-groq
+langchain_openai
+streamlit
