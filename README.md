@@ -60,7 +60,7 @@ An intelligent multi-agent system built with LangChain and LangGraph that allows
 
 ### Prerequisites
 - Python 3.8 or higher
-- OpenAI API key (or other LLM provider)
+- Cerebras API key (or other LLM provider)
 
 ### Installation
 
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 
 Create a `.env` file in the root directory:
 ```env
-OPENAI_API_KEY=your_openai_api_key_here
+CEREBRAS_API_KEY=your_cerebras_api_key_here
 ```
 
 5. **Run the backend server**
