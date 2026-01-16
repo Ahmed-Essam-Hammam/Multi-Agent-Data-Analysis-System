@@ -195,8 +195,10 @@ class AgentState(TypedDict):
 from langchain_openai import ChatOpenAI
 
 llm = ChatOpenAI(
-    model="gpt-4",  # or "gpt-3.5-turbo"
-    temperature=0
+    base_url="https://api.cerebras.ai/v1",
+    model=settings.MODEL_NAME,
+    api_key=settings.CEREBRAS_API_KEY,
+    temperature=0,
 )
 ```
 
@@ -235,7 +237,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - your.email@example.com
+Ahmed Essam - ahmedessamhamam2@gmail.com
 
 Project Link: [https://github.com/yourusername/multi-source-ai-agent](https://github.com/yourusername/multi-source-ai-agent)
 
