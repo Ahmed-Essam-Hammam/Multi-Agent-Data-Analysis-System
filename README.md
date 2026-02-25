@@ -66,8 +66,8 @@ An intelligent multi-agent system built with LangChain and LangGraph that allows
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/multi-source-ai-agent.git
-cd multi-source-ai-agent
+git clone https://github.com/Ahmed-Essam-Hammam/Multi-Agent-Data-Analysis-System.git
+cd Multi-Agent-Data-Analysis-System
 ```
 
 2. **Create and activate virtual environment**
